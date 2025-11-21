@@ -52,10 +52,13 @@ En aquestes instruccions es descriuran les passes per instal·lar mdBook, crear 
    ```
 9. Comprovar el contingu del llibre.
 10. Fer un commit i push.
-11. Anar els `Settings` del repositori i desprès a `pages`.
-12. Anar a `Source` i seleccionsr `GitHub Actions`.
-13. Seleccionar `mdbook` i pitjar `configure`
-14. Pijar a `Commit changes`. Això crea el `mdbook.yml` dins el directori `workflows` per generar el workflow actions.
-15. Comprovar que el github pages s'ha publicat `https://josemmol.github.io/nom del teu repositori`.
+11. Anar al teu repositori a la pagina web de github i pijtar a `Settings` i desprès a `pages`.
+12. Davall de `Build and deployment` selecciona `Deploy from a branch`.
+13. Escull la branca `main` i la carpeta `(docs or /)` i pitja `Save`.
+14. Anar a `Source` i seleccionsr `GitHub Actions`.
+15. Comprovar que `mdbook.yml` està creat dins el directori `workflows` per generar el workflow actions.
+16. Comprovar que els workflow d'actions s'ha executat correctament.
+18. Comprovar que el github pages s'ha publicat `https://josemmol.github.io/nom del teu repositori`.
+    
 ## Lliurament
 Només cal fer commits i push al teu repositori generat per GitHub Classroom.
